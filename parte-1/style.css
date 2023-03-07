@@ -1,0 +1,36 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h5,
+th {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  box-shadow: 10px 10px 5px #888;
+  border: thin ridge grey;
+}
+
+th {
+  background: #0046c3;
+  color: #fff;
+  max-width: 475px;
+  padding: 5px 10px;
+}
+
+td {
+  font-size: 12px;
+  padding: 5px 20px;
+  color: #000;
+}
+
+tr:nth-child(even) {
+  background: #b8d1f3;
+}
+
+tr:nth-child(odd) {
+  background: #dae5f4;
+}
